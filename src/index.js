@@ -10,6 +10,6 @@ server.use('/task', TaskRoutes);
 
 //server.listen(process.env.PORT || 3333);
 
-server.listen(3000, () => {
+server.listen(3333, () => {
     console.log('API ONLINE');
 });
